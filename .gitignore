@@ -1,0 +1,9 @@
+node_modules
+dist
+todo.txt
+coverage
+targets
+node_modules
+src/data/*
+src/script
+config/*
