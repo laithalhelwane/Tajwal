@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import config from 'config';
 import { ImageDocument } from './image.model';
 import { findProductRate } from '../service/rate.service';

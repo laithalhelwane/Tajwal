@@ -3,7 +3,7 @@ import { LocationDocument } from './location.model';
 import { WorkingHoursDocument } from './workingHours.model';
 import BusinessRateModel from './businessRate.model';
 import config from 'config';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import { ImageDocument } from './image.model';
 import { BusinessTypeDocument } from './businessType.model';
 import { ProductDocument } from './product.model';

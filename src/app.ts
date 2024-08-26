@@ -4,7 +4,7 @@ import logger from './util/logger';
 import swaggerDocs from './util/swagger';
 
 const app = createServer();
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 1337;
 app.listen(PORT, async () => {
   logger.info(`listening on http://localhost:${PORT}`);
   await connect();
